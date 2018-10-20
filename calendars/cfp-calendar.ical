@@ -4,7 +4,7 @@ PRODID:-//nrvdev.com//cfp-calendar//EN
 NAME:CFP Calendar
 X-WR-CALNAME:CFP Calendar
 BEGIN:VEVENT
-UID:ds3e@nrvdev.com
+UID:7xuy@nrvdev.com
 SEQUENCE:0
 DTSTAMP:20181020T000000Z
 DTSTART;VALUE=DATE:20181109
@@ -12,15 +12,15 @@ DTEND;VALUE=DATE:20181109
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
 SUMMARY:Codestock
-DESCRIPTION:Conference Dates: 2018-10-20 - 2018-10-20\n\nCodeStock is a tw
- o day event for technology and information exchange. Created by the commun
- ity\, for the community – this is not an industry trade show pushing the l
- atest in marketing as technology\, but a gathering of working professional
- s sharing knowledge and experience.\n
+DESCRIPTION:Conference Dates: 2019-04-12 - 2019-04-13\nLocation:Knoxville\
+ , TN\n\nCodeStock is a two day event for technology and information exchan
+ ge. Created by the community\, for the community – this is not an industry
+  trade show pushing the latest in marketing as technology\, but a gatherin
+ g of working professionals sharing knowledge and experience.\n
 URL;VALUE=URI:http://codestock.org/
 END:VEVENT
 BEGIN:VEVENT
-UID:eb55@nrvdev.com
+UID:vj5v@nrvdev.com
 SEQUENCE:0
 DTSTAMP:20181019T000000Z
 DTSTART;VALUE=DATE:20181125
@@ -28,13 +28,14 @@ DTEND;VALUE=DATE:20181125
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
 SUMMARY:devopsday Charlotte
-DESCRIPTION:Conference Dates: 2018-10-20 - 2018-10-20\n\nDevopsdays is a w
- orldwide series of technical conferences covering topics of software devel
- opment\, IT infrastructure operations\, and the intersection between them.
-  Each event is run by volunteers from the local area.\n\nMost devopsdays e
- vents feature a combination of curated talks (see open Calls for Proposals
- ) and self organized open space content. Topics often include automation\,
-  testing\, security\, and organizational culture.\n
+DESCRIPTION:Conference Dates: 2019-02-07 - 2019-02-08\nLocation:Charlotte\
+ , NC\n\nDevopsdays is a worldwide series of technical conferences covering
+  topics of software development\, IT infrastructure operations\, and the i
+ ntersection between them. Each event is run by volunteers from the local a
+ rea.\n\nMost devopsdays events feature a combination of curated talks (see
+  open Calls for Proposals) and self organized open space content. Topics o
+ ften include automation\, testing\, security\, and organizational culture.
+ \n
 URL;VALUE=URI:https://www.devopsdays.org/events/2019-charlotte/welcome/
 END:VEVENT
 END:VCALENDAR
