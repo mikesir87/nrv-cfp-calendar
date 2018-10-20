@@ -6,6 +6,14 @@ As an effort to help increase awareness of local and regional conferences and ev
 Simply put, add an event file and see it show up in the iCal feeds in the `calendars` directory!
 
 
+## Adding to your calendar
+
+Since the calendar is in iCal format, you can simply add it to your calendaring tool, including Google Calendar!
+
+```
+https://raw.githubusercontent.com/mikesir87/nrv-cfp-calendar/master/calendars/cfp-calendar.ical
+```
+
 ## How do I contribute an event?
 
 1. Find out about an event with an upcoming CFP deadline
