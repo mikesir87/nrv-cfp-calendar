@@ -20,6 +20,7 @@ cd out
 git checkout master
 
 ## Perform the actual updates
+yarn install
 node src/index.js
 
 git config --global user.email "travis@travis-ci.org"
