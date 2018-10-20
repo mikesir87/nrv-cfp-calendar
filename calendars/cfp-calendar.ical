@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//nrvdev.com//cfp-calendar//EN
+NAME:CFP Calendar
+X-WR-CALNAME:CFP Calendar
+BEGIN:VEVENT
+UID:nxeg@nrvdev.com
+SEQUENCE:0
+DTSTAMP:20181019T000000Z
+DTSTART;VALUE=DATE:20181125
+DTEND;VALUE=DATE:20181125
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:Conference Dates: 2018-10-19 - 2018-10-19\n\ndevopsday Charlotte
+DESCRIPTION:Devopsdays is a worldwide series of technical conferences cove
+ ring topics of software development\, IT infrastructure operations\, and t
+ he intersection between them. Each event is run by volunteers from the loc
+ al area.\n\nMost devopsdays events feature a combination of curated talks 
+ (see open Calls for Proposals) and self organized open space content. Topi
+ cs often include automation\, testing\, security\, and organizational cult
+ ure.\n
+URL;VALUE=URI:https://www.devopsdays.org/events/2019-charlotte/welcome/
+END:VEVENT
+END:VCALENDAR

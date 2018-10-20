@@ -1,0 +1,14 @@
+{
+  "name": "nrv-cfp-calendar",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:mikesir87/nrv-cfp-calendar.git",
+  "author": "Michael Irwin <mikesir87@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ical-generator": "^1.2.2",
+    "joi": "^14.0.0",
+    "moment": "^2.22.2",
+    "yamljs": "^0.3.0"
+  }
+}
