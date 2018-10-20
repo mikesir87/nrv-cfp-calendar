@@ -11,7 +11,7 @@ Simply put, add an event file and see it show up in the iCal feeds in the `calen
 Since the calendar is in iCal format, you can simply add it to your calendaring tool, including Google Calendar!
 
 ```
-https://raw.githubusercontent.com/mikesir87/nrv-cfp-calendar/master/calendars/cfp-calendar.ical
+https://mikesir87.github.io/nrv-cfp-calendar/calendars/cfp-calendar.ical
 ```
 
 ## How do I contribute an event?
