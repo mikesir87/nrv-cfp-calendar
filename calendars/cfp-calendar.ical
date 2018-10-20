@@ -4,7 +4,7 @@ PRODID:-//nrvdev.com//cfp-calendar//EN
 NAME:CFP Calendar
 X-WR-CALNAME:CFP Calendar
 BEGIN:VEVENT
-UID:7xuy@nrvdev.com
+UID:2018-11-09-codestock@nrvdev.com
 SEQUENCE:0
 DTSTAMP:20181020T000000Z
 DTSTART;VALUE=DATE:20181109
@@ -20,7 +20,7 @@ DESCRIPTION:Conference Dates: 2019-04-12 - 2019-04-13\nLocation:Knoxville\
 URL;VALUE=URI:http://codestock.org/
 END:VEVENT
 BEGIN:VEVENT
-UID:vj5v@nrvdev.com
+UID:2018-11-25-devopsday-charlotte@nrvdev.com
 SEQUENCE:0
 DTSTAMP:20181019T000000Z
 DTSTART;VALUE=DATE:20181125
