@@ -25,8 +25,8 @@ function version1Extractor(contents) {
     if (error)
         throw error;
 
-    const startDate = moment(event['conf_start_date']);
-    const endDate = moment(event['conf_end_date']);
+    const startDate = moment(event.conference_dates.start);
+    const endDate = moment(event.conference_dates.end);
 
     return {
         timestamp : moment(event.date_added, 'YYYY-MM-DD'),
