@@ -5,6 +5,9 @@
   "repository": "git@github.com:mikesir87/nrv-cfp-calendar.git",
   "author": "Michael Irwin <mikesir87@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "test": "node ./src/index.js --dry-run"
+  },
   "dependencies": {
     "ical-generator": "^1.2.2",
     "joi": "^14.0.0",
