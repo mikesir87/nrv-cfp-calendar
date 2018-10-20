@@ -12,12 +12,18 @@ const cal = ical({
     prodId: {company: 'nrvdev.com', product: 'cfp-calendar'}, 
 });
 
+const dryRun = (process.argv.indexOf("--dry-run") > -1);
 
 Promise.all(
     getFilenames().map(f => processFile(f))
 )
 .then(data => data.forEach(event => cal.createEvent(event)))
-.then(() => fs.writeFileSync('./calendars/cfp-calendar.ical', cal.toString()));
+.then(() => {
+    if (dryRun) 
+        console.log(cal.toString());
+    else  
+        fs.writeFileSync('./calendars/cfp-calendar.ical', cal.toString());
+});
 
 
 /**
