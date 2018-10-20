@@ -33,7 +33,7 @@ function version1Extractor(contents) {
         timestamp : moment(event.date_added, 'YYYY-MM-DD'),
         allDay : true,
         summary : `${event.summary}`,
-        description : `Conference Dates: ${startDate.format('YYYY-MM-DD')} - ${endDate.format('YYYY-MM-DD')}\nLocation:${event.location}\n\n${event.description}`,
+        description : `Conference Dates: ${startDate.format('YYYY-MM-DD')} - ${endDate.format('YYYY-MM-DD')}\nLocation: ${event.location}\nURL: ${event.url}\n\n${event.description}`,
         url : event.url,
     }
 }
