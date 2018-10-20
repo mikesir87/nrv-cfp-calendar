@@ -5,6 +5,7 @@ event:
   description: |
     CodeStock is a two day event for technology and information exchange. Created by the community, for the community – this is not an industry trade show pushing the latest in marketing as technology, but a gathering of working professionals sharing knowledge and experience.
   url: http://codestock.org/
+  location: Knoxville, TN
   conference_dates:
     start: 2019-04-12
     end: 2019-04-13

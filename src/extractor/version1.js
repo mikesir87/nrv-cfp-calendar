@@ -6,6 +6,7 @@ const SCHEMA = Joi.object().keys({
     description : Joi.string().required(),
     url : Joi.string().uri({ scheme : [ /https?/ ]}).required(),
     date_added : Joi.date().required(),
+    location : Joi.string().required(),
     conference_dates : Joi.object().keys({
         start : Joi.date().required(),
         end : Joi.date().required(),
@@ -32,7 +33,7 @@ function version1Extractor(contents) {
         timestamp : moment(event.date_added, 'YYYY-MM-DD'),
         allDay : true,
         summary : `${event.summary}`,
-        description : `Conference Dates: ${startDate.format('YYYY-MM-DD')} - ${endDate.format('YYYY-MM-DD')}\n\n${event.description}`,
+        description : `Conference Dates: ${startDate.format('YYYY-MM-DD')} - ${endDate.format('YYYY-MM-DD')}\nLocation:${event.location}\n\n${event.description}`,
         url : event.url,
     }
 }
