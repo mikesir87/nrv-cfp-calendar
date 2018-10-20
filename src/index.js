@@ -56,7 +56,7 @@ function processFile(filename) {
             try {
                 const data = extractData(YAML.parse(fileData.toString()));
                 const date = moment(filename.match(FILENAME_MATCHER)[1]);
-                acc( Object.assign({}, data, { start : date, end : date } ));
+                acc( Object.assign({}, data, { start : date, end : date, uid : filename } ));
             } catch (err) {
                 throw new Error(`Error processing ${filename}: ${err.message}`);
             }
