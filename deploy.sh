@@ -1,8 +1,6 @@
 #!/bin/bash
 
 if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then
-    TRAVIS_COMMIT_RANGE="FETCH_HEAD...$TRAVIS_BRANCH"
-else
     echo "Not going to deploy, as we're in a PR"
     exit 0
 fi
