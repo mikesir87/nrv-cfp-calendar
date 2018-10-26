@@ -2,7 +2,13 @@
 
 if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then
     TRAVIS_COMMIT_RANGE="FETCH_HEAD...$TRAVIS_BRANCH"
+else
+    echo "Not going to deploy, as we're in a PR"
+    exit 0
 fi
+
+openssl aes-256-cbc -K $encrypted_b13950a340e6_key -iv $encrypted_b13950a340e6_iv -in id_rsa.enc -out /tmp/id_rsa -d
+
 git diff --name-only $TRAVIS_COMMIT_RANGE | grep -qvE '(^(calendars))/' || {
     echo "Only calendar was updated, stopping build process."
     exit
