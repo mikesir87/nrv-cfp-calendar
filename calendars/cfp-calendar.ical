@@ -21,6 +21,28 @@ DESCRIPTION:Conference Dates: 2019-04-12 - 2019-04-13\nLocation: Knoxville
 URL;VALUE=URI:http://codestock.org/
 END:VEVENT
 BEGIN:VEVENT
+UID:2018-11-20-werockit-huntsville@nrvdev.com
+SEQUENCE:0
+DTSTAMP:20181025T000000Z
+DTSTART;VALUE=DATE:20181120
+DTEND;VALUE=DATE:20181120
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:WeRockIT
+DESCRIPTION:Conference Dates: 2019-05-03 - 2019-05-04\nLocation: Huntsvill
+ e\, NC\nURL: https://werockitconf.com/#speakers\n\nWeRockIT Conf is an ann
+ ual two-day conference that features all disciplines of technology and sho
+ ws how they all can interconnect. We'll highlight a wide range of speakers
+  to educate and inspire our guests. Our mission is to showcase and grow di
+ verse voices in technology.\n\nThis conference is being organized by a gro
+ up of passionate developers who are dedicated to enriching the Huntsville\
+ , AL tech community.. WeRockIT Conf will include a mix of panel discussion
+ s\, keynotes\, speakers\, and hands-on workshops.\n\nThis year the topics 
+ will focus on: Cloud Computing\, Big Data\, Web Development\, CyberSecurit
+ y\, and Embedded Systems. So\, come join us on our mission!\n
+URL;VALUE=URI:https://werockitconf.com/#speakers
+END:VEVENT
+BEGIN:VEVENT
 UID:2018-11-25-devopsday-charlotte@nrvdev.com
 SEQUENCE:0
 DTSTAMP:20181019T000000Z
