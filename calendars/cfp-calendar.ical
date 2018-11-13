@@ -61,4 +61,19 @@ DESCRIPTION:Conference Dates: 2019-02-07 - 2019-02-08\nLocation: Charlotte
  ude automation\, testing\, security\, and organizational culture.\n
 URL;VALUE=URI:https://www.devopsdays.org/events/2019-charlotte/welcome/
 END:VEVENT
+BEGIN:VEVENT
+UID:2018-12-18-oreilly-sa-con@nrvdev.com
+SEQUENCE:0
+DTSTAMP:20181112T000000Z
+DTSTART;VALUE=DATE:20181218
+DTEND;VALUE=DATE:20181218
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:O'Reilly Software Architecture Conference
+DESCRIPTION:Conference Dates: 2019-06-10 - 2019-06-13\nLocation: San Jose\
+ , CA\nURL: https://conferences.oreilly.com/software-architecture/sa-ca/pub
+ lic/cfp/698\n\n\n
+URL;VALUE=URI:https://conferences.oreilly.com/software-architecture/sa-ca/
+ public/cfp/698
+END:VEVENT
 END:VCALENDAR
