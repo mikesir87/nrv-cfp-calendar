@@ -1,0 +1,11 @@
+version: "1.0"
+
+event:
+  summary: O'Reilly Software Architecture Conference 
+  description: |
+  url: https://conferences.oreilly.com/software-architecture/sa-ca/public/cfp/698 
+  location: San Jose, CA
+  conference_dates:
+    start: 2019-06-10
+    end: 2019-06-13
+  date_added: 2018-11-12
