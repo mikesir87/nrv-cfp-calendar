@@ -9,7 +9,7 @@ In the idea of "git-repo all the things", this repo serves as a focal point for 
 Since the calendar is in iCal format, you can simply add it to your calendaring tool, including Google Calendar!
 
 ```
-https://mikesir87.github.io/nrv-cfp-calendar/calendars/cfp-calendar.ical
+https://mikesir87.github.io/nrv-cfp-calendar/calendars/cfps.ical
 ```
 
 ## How do I contribute an event?
