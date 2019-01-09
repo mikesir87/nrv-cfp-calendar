@@ -8,8 +8,8 @@ const { version1Extractor } = require("./extractor/version1");
 const FILENAME_MATCHER = /(\d{4}-\d{2}-\d{2})-[a-z0-9-]+/;
 const cal = ical({
     domain: 'nrvdev.com', name: 'CFP Calendar', 
-    id : 'nrvdev-cfp-calendar',
-    prodId: {company: 'nrvdev.com', product: 'cfp-calendar'}, 
+    id : 'nrvdev-cfps',
+    prodId: {company: 'nrvdev.com', product: 'cfps'}, 
 });
 
 const dryRun = (process.argv.indexOf("--dry-run") > -1);
@@ -22,7 +22,7 @@ Promise.all(
     if (dryRun) 
         console.log(cal.toString());
     else  
-        fs.writeFileSync('./calendars/cfp-calendar.ical', cal.toString());
+        fs.writeFileSync('./calendars/cfps.ical', cal.toString());
 });
 
 
@@ -32,7 +32,7 @@ Promise.all(
  * @return string[] Filenames found in the events directory
  */
 function getFilenames() {
-    const eventFilenames = fs.readdirSync("./events");
+    const eventFilenames = fs.readdirSync("./cfp-events");
 
     eventFilenames.forEach(f => {
         if (f.match(FILENAME_MATCHER) === null)
@@ -50,7 +50,7 @@ function getFilenames() {
  */
 function processFile(filename) {
     return new Promise((acc, rej) => {
-        return fs.readFile(`./events/${filename}`, (err, fileData) => {
+        return fs.readFile(`./cfp-events/${filename}`, (err, fileData) => {
             if (err) return rej(err);
 
             try {

@@ -1,12 +1,10 @@
 
-# NRV Dev CFP Calendar
+# NRV Dev Calendars
 
-As an effort to help increase awareness of local and regional conferences and events, this repo was created to provide the ability to crowdsource a calendar! Hopefully, this can help others have more speaking opportunities and help get our name out there a little more!
-
-Simply put, add an event file and see it show up in the iCal feeds in the `calendars` directory!
+In the idea of "git-repo all the things", this repo serves as a focal point for all calendaring. To start, there's a calendar for upcoming CFPs (Call for Proposals/Presentations) to help us all be aware of speaking opportunities. In the future, there may be other calendars added as needed.
 
 
-## Adding to your calendar
+## Adding the feed to your calendar
 
 Since the calendar is in iCal format, you can simply add it to your calendaring tool, including Google Calendar!
 
