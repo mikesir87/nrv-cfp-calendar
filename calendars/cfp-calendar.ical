@@ -76,4 +76,23 @@ DESCRIPTION:Conference Dates: 2019-06-10 - 2019-06-13\nLocation: San Jose\
 URL;VALUE=URI:https://conferences.oreilly.com/software-architecture/sa-ca/
  public/cfp/698
 END:VEVENT
+BEGIN:VEVENT
+UID:2019-02-01-devopsday-nashville@nrvdev.com
+SEQUENCE:0
+DTSTAMP:20190109T000000Z
+DTSTART;VALUE=DATE:20190201
+DTEND;VALUE=DATE:20190201
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:devopsday Nashville
+DESCRIPTION:Conference Dates: 2019-04-30 - 2019-05-10\nLocation: Nashville
+ \, TN\nURL: https://www.devopsdays.org/events/2019-nashville/welcome/\n\nD
+ evopsdays is a worldwide series of technical conferences covering topics o
+ f software development\, IT infrastructure operations\, and the intersecti
+ on between them. Each event is run by volunteers from the local area.\n\nM
+ ost devopsdays events feature a combination of curated talks (see open Cal
+ ls for Proposals) and self organized open space content. Topics often incl
+ ude automation\, testing\, security\, and organizational culture.\n
+URL;VALUE=URI:https://www.devopsdays.org/events/2019-nashville/welcome/
+END:VEVENT
 END:VCALENDAR
